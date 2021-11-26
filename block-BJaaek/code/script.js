@@ -1,5 +1,5 @@
 function changeColor(){
-return `rgb(${Math.floor(Math.random() *685)}, ${Math.floor(Math.random() *265)}, ${Math.floor(Math.random() *625)})`
+return `rgb(${Math.floor(Math.random() *255)}, ${Math.floor(Math.random() *255)}, ${Math.floor(Math.random() *255)})`
 }
 
 let box1 = document.querySelector('.first')
