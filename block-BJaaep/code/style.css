@@ -68,7 +68,7 @@ body {
   margin: 0 auto;
 }
 
-.boxes {
+.boxes1, .boxes2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -81,7 +81,7 @@ body {
   margin-right: 20px;
 }
 
-.box {
+.box1, .box2{
   margin: 5px;
   background-color: #444;
   background-size: contain;
