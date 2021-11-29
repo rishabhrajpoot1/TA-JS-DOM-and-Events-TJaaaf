@@ -24,9 +24,14 @@ allBoxes2.forEach((box2, index)=>{
 });
 
 function handleEvent(event){
-     event.target.innerText = event.target.dataset.index
+if(event.target.value===0){
+    event.target.innerText = event.target.dataset.index
     setTimeout(()=>{
         event.target.innerText = "";
       }, 5000);
+    }else{
+        alert('Please click on the proper box')
+    }
+  
 }
 root.addEventListener("click", handleEvent)
