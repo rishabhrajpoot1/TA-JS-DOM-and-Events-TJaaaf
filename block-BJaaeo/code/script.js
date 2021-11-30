@@ -16,7 +16,7 @@ for(item of buttons){
 
         }else{
             screenValue += buttonText
-            bar.value = screenValue
+            bar.value = bar.value
         };
     });
     }
