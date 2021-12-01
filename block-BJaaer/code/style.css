@@ -91,3 +91,27 @@ input[type='text'] {
 .terms {
   display: inline-block;
 }
+
+h2{
+  margin-left: 1rem;
+  font-size: 2rem ;
+  font-weight: 700;
+}
+
+.result{
+  background-color: white;
+  width: 550px;
+  line-height: 3rem;
+  padding: 1rem;
+  margin-left: 27rem;
+}
+.result p{
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+.close{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+  color: rgb(169,169,169);
+}
