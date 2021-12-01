@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.bar{
+    width: 39.5rem;
+    height: 7rem;
+    background-color: black;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    color: white;
+    font-size: 6rem;
+}
+#screen{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.add, .sub, .mul, .div{
+    background-color: rgb(113,1,51);
+    color: white;
+    padding: 1rem 3.6rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    font-size: 3rem;
+}
+.sign, .num1-parent{
+    margin-bottom: 4rem;
+}
+
+.num1{
+    background-color: rgb(207,207,207);
+    padding: 1rem 3.6rem;
+    font-size: 3rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    display: inline;
+}
+
+.num2{
+    background-color: rgb(61,27,17);
+    padding: 1rem 3.6rem;
+    font-size: 3rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    color: rgb(255,227,196);
+}
+.equal{
+    width: 10rem;
+    height: 25.2rem; 
+    background-color: rgb(0,128,128);
+    border-radius: 1rem;
+    font-size: 5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.calc{
+    display: flex;
+    margin-left: 24.8rem;
+}
