@@ -1,0 +1,104 @@
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to right, #2e292e 0, #aaaf69 100%);
+}
+
+.container {
+  max-width: 400px;
+  margin: 2rem auto;
+  background: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-control {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+input[type='text'] {
+  padding: 0.5rem 1rem;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type='number'] {
+  padding: 0.5rem 1rem;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type='email'] {
+  padding: 0.5rem 1rem;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type='password'] {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type='text'] {
+  width: 100%;
+}
+
+label{
+  margin-bottom: 0.3rem;
+  font-size: large;
+}
+
+button {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+small{
+  margin-top: 0.3rem;
+  color: red;
+  font-size: 1rem;
+}
