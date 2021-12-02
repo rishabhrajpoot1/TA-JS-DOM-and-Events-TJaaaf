@@ -50,6 +50,8 @@ function handleSubmit(event){
         userpasswordError = ""
     }
     UserconfirmElm.nextElementSibling.innerText = userpasswordError;
+
+    alert("User Added Successfully!")
 }
 
 form.addEventListener("submit", handleSubmit)
