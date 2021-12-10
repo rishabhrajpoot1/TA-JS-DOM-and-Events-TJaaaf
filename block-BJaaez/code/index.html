@@ -3,10 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>TODO Application</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <main class="container">
+      <h1>todos</h1>
+
+      <div class="parent">
+        <input
+          id="text"
+          type="text"
+          name="todo"
+          placeholder="What needs to be done?"
+        />
+
+        <ul></ul>
+      </div>
+
+      <div class="button-parent">
+        <span class="left-item"></span>
+        <button class="button all">All</button>
+        <button class="button active">Active</button>
+        <button class="button completed">Completed</button>
+        <button class="button clear-completed">Clear Completed</button>
+      </div>
+    </main>
     <script src="./script.js"></script>
   </body>
 </html>
