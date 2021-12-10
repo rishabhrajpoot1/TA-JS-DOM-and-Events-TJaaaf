@@ -70,6 +70,9 @@ const game = document.querySelector(".parent");
 let count = 0;
 let array1 = [];
 let array2 = [];
+let span = document.querySelector('span');
+let moves = 0
+
 
 
 // let gameGrid = cardArrays.concat(cardArrays)
@@ -90,14 +93,19 @@ cardArrays.forEach((item, i) => {
   card.style.backgroundImage = `url(${item.img})`;
   setTimeout(function(){ card.style.backgroundImage = "none"}, 600);
   grid.appendChild(card);
+  
 
 if(count<2){
   card.addEventListener("click", function (event) {
+   
+    let click = event.length
     //   console.log(event.target.value)
     let id = event.target.id;
     array1.push(id)
     array2.push(event.target.value)
     card.style.backgroundImage = `url(${item.img})`;
+   
+    
     // setTimeout(function(event){card.style.backgroundImage = "none"}, 2000);
 
 
@@ -121,16 +129,22 @@ if(count<2){
                     array2 = []
                     
                 },1000);
+                
                 console.log('not match')
-              
             }
             
+            moves = moves + 1
+
+            span.innerText = `Total no. of moves: ${moves}`;
+
             count = 0
         }
+        
     }
+    
 });
 }
-
+moves = array1.length
 });
 
 
