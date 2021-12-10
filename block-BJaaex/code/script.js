@@ -128,7 +128,7 @@ if(count<2){
                     array1 = []
                     array2 = []
                     
-                },1000);
+                },2000);
                 
                 console.log('not match')
             }
