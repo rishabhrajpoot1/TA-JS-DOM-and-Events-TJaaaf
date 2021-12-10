@@ -197,6 +197,7 @@ h1 {
   background: linear-gradient(to right, rgb(0, 0, 0) 0, rgb(255, 0, 0) 100%);
   border: 4px solid white;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .card {
@@ -211,4 +212,9 @@ h1 {
 
 .selected {
   border: 4px solid blue;
+}
+
+span{
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
 }
